@@ -1,0 +1,47 @@
+body {
+    margin: 0 auto;
+    padding: 15px;
+    max-width: 640px;
+    font-size: 14px;
+}
+
+a,
+button,
+input {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h1,
+h2,
+h3,
+strong {
+    font-weight: 400;
+}
+
+p,
+ul {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+button,
+input {
+    font-size: inherit;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* 禁用长按页面时的弹出菜单(iOS下有效) ,img和a标签都要加 */
+img,
+a {
+    -webkit-touch-callout: none;
+}
